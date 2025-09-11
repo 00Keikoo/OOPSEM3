@@ -1,10 +1,10 @@
-import javax.swing.JOptionPane;
+import java.util.Scanner;
 class Faktorial{
 	public static void main(String args[]){
-		int faktor= 0;
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Masukkan bilangan faktorial: ");
+		int faktor= scanner.nextInt();
 		int sum = 1;
-		String str = JOptionPane.showInputDialog("Masukkan nilai : ");
-		faktor = Integer.parseInt(str);
 		System.out.println("n	 n!");
 		System.out.println("---------");
 		for(int i= 1; i<=faktor; i++){

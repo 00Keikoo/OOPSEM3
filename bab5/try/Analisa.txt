@@ -1,0 +1,17 @@
+Percobaan 1: 
+Ouputnya PENS (enter) pens karena ada \n 
+dimana \n untuk enter
+
+Percobaan 2: 
+equals = case sensitive
+equalsIgnoreCase = tidak case sensitive
+
+Percobaan 3 : 
+Menambahkan string bisa dengan + dan concat 
+
+Percobaan 4: 
+variabel dengan tipe data primitif otomatis dikonversi menjadi string
+
+Percobaan 5: 
+Mengganti isi string menggunakan properti.replace("Yg ingin diganti", "menjadi apa");
+

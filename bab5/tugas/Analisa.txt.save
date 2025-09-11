@@ -1,0 +1,11 @@
+Tugas 1: 
+disini saya menggunakan boolean untuk konfirmasi ketemu atau tidak nya
+dan menggunakan properti charAt() untuk mengonversi menjadi char[]
+
+Tugas2:
+untuk merubah hurufnya menjadi capital saya menggunakan properti toUpperCase().
+lalu untuk menampilkan panjang string menggunakan length();
+dan untuk menampilkan indek kata PENS  menggunakan indexOF();
+
+Tugas3: 
+

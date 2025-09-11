@@ -1,0 +1,29 @@
+Latihan1:
+Outputnya ic karena menggunakan substring dimana iBegin=1 berarti mengambil dari index ke 1.
+Lalu iEnd=3 ia tetapi dibaca 3 meskipun tipe data nya char tapi iEnd itu harusnya index 3 bila tak tau aturannya tetapi di aturan nya
+substring indexEnd itu iEnd -1 jadi dia menunjuk index ke 2 dimana itu c.
+
+Latihan2:
+Outputnya bila dijalankan error karena tipe datanya berbeda bila ingin ditambahkan
+tipe data char c ='H' harus diubah menjadi String c="H" agar bisa.
+
+Latihan3:
+Error karena program mengira constructor EqTest() adalah method jadi harus diubah menjadi
+public EqTest3();
+
+Latihan4: 
+Sama seperti tadi program mengira constructor EqTest() adalah method jadi perlu dirubah
+dan disini outputnya adalah not equal dua duanya berbeda dengan dengan Latihan 3
+karena cara mendeklarasi String nya berbeda yaitu dengan new String("") sehingga berbeda referensi nya
+
+Latihan5: 
+perlu dirubah nama constructor nya dan outputnya adalah equal karena
+menggunakan equalsIgnoreCase sehingga tidak case sensitif.dan membuat String nya pun tidak menggunakan new String();
+
+Latihan6:
+Outputnya Both are not equal karena berbeda tipe dimana String itu Immutable sedangkan StringBuffer itu Mutable.
+
+Latihan7: 
+Outputnya adalah "abc" dimana concat untuk menggabungkan string tetapi harus disimpan dalam varibel baru atau di printlnnya(str1.concat(str2));
+
+

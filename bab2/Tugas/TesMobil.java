@@ -1,37 +1,31 @@
+
 public class TesMobil{
 	public static void main(String[] args){
-		Mobil mobil1 = new Mobil("mobil1");
-		mobil1.setMerk("Toyota");
-		mobil1.setWarna("biru");
-		mobil1.setTipe("minibus");
-		mobil1.setHarga(2000);
-		mobil1.setJumlah(7);
-		
-		Mobil mobil2 = new Mobil("mobil2");
-		mobil2.setMerk("Daihatsu");
-		mobil2.setWarna("hitam");
-		mobil2.setTipe("pick up");
-		mobil2.setHarga(1500);
-		mobil2.setJumlah(2);
+		Mobil mobil1 = new Mobil("Toyota", "Biru", "minibus", 2000, 7);
+		Mobil mobil2 = new Mobil("Daihatsu", "hitam", "pick up", 1500, 2);
+		Mobil mobil3 = new Mobil("Suzuki", "silver", "suv", 1800, 5);
+		Mobil mobil4 = new Mobil("Honda", "merah", "sedan", 1300, 5);
 
-		Mobil mobil3 = new Mobil("mobil3");
-		mobil3.setMerk("Suzuki");
-		mobil3.setWarna("silver");
-		mobil3.setTipe("suv");
-		mobil3.setHarga(1800);
-		mobil3.setJumlah(5);
-
-		Mobil mobil4 = new Mobil("mobil4");
-		mobil4.setMerk("Honda");
-		mobil4.setWarna("merah");
-		mobil4.setTipe("sedan");
-		mobil4.setHarga(1300);
-		mobil4.setJumlah(5);
-
-		mobil1.infoMobil("mobil1");
-		mobil2.infoMobil("mobil2");
-		mobil3.infoMobil("mobil3");
-		mobil4.infoMobil("mobil4");
+		mobil1.printMerek();
+		mobil1.printWarna();
+		mobil1.printTipe();
+		mobil1.printHarga();
+		mobil1.printJumlah();
+		mobil2.printMerek();
+		mobil2.printWarna();
+		mobil2.printTipe();
+		mobil2.printHarga();
+		mobil2.printJumlah();
+		mobil3.printMerek();
+		mobil3.printWarna();
+                mobil3.printTipe();
+                mobil3.printHarga();
+                mobil3.printJumlah();
+		mobil4.printMerek();
+		mobil4.printWarna();
+                mobil4.printTipe();
+                mobil4.printHarga();
+                mobil4.printJumlah();
 	}
 
 }
