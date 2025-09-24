@@ -1,0 +1,10 @@
+Percobaan 1
+Saat menggunakan kata kunci this, yang digunakan adalah atribut pada kelas child.
+Sedangkan ketika menggunakan super, yang dipanggil adalah atribut parent. Ini 
+ditunjukkan dari this.x memberi nilai 10, sedangkan super.x memberi nilai 5
+
+Percobaan 2
+Setelah dikompilasi, anda tidak mendapatkan error sebagaimana yang sebelumnya. Ini yang harus kita perhatikan bahwa untuk pemanggilan konstruktor parent class, kita harus melakukan pemanggilan tersebut di baris pertama pada konstruktor subclass.
+
+Latihan1
+Menambahkan kata kunci super() untuk memanggil konstruktor milik Base. Lalu karena yang menampilkan "bas constructor" memiliki parameter integer, maka tambahkan angka random untuk memunculkan constructor
