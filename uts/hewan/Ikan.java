@@ -21,7 +21,7 @@ public class Ikan extends HewanAir{
 	}
 
 	public void buatSuara(){
-		System.out.println(getNama() + " : Blup Blup");
+		System.out.println(getNama() + " says : Blup Blup");
 	}
 
 }

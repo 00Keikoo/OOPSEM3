@@ -22,6 +22,6 @@ public class Kucing extends HewanDarat{
 	}
 
 	public void buatSuara(){
-		System.out.println(getNama() + " : Meow....");
+		System.out.println(getNama() + " says : Meow....");
 	}
 }
