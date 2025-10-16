@@ -1,0 +1,102 @@
+package animalsystem;
+
+class Hewan {
+    private String nama;
+
+    public Hewan(String nama) {
+        this.nama = nama;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void buatSuara() {
+        System.out.println(getNama() + " tidak bersuara.");
+    }
+}
+
+class Kucing extends Hewan {
+    private String warna;
+
+    public Kucing(String nama, String warna) {
+        super(nama);
+        this.warna = warna;
+    }
+
+    public void buatSuara() {
+        System.out.println(getNama() + " says: Meow!");
+    }
+
+    public String getWarna() {
+        return warna;
+    }
+}
+
+class Anjing extends Hewan {
+    private String ukuran;
+
+    public Anjing(String nama, String ukuran) {
+        super(nama);
+        this.ukuran = ukuran;
+    }
+
+    public void buatSuara() {
+        System.out.println(getNama() + " says: Woof!");
+    }
+
+    public String getUkuran() {
+        return ukuran;
+    }
+}
+
+class Burung extends Hewan {
+    private String jenisParuh;
+
+    public Burung(String nama, String jenisParuh) {
+        super(nama);
+        this.jenisParuh = jenisParuh;
+    }
+
+    public void buatSuara() {
+        System.out.println(getNama() + " says: Chirp!");
+    }
+
+    public String getJenisParuh() {
+        return jenisParuh;
+    }
+}
+
+class Sapi extends Hewan {
+    private double berat;
+
+    public Sapi(String nama, double berat) {
+        super(nama);
+        this.berat = berat;
+    }
+
+    public void buatSuara() {
+        System.out.println(getNama() + " says: Moo!");
+    }
+
+    public double getBerat() {
+        return berat;
+    }
+}
+
+public class AnimalSoundSystem {
+    public static void main(String[] args) {
+        Hewan[] hewan = new Hewan[5];
+        hewan[0] = new Hewan("Hewan Umum");
+        hewan[1] = new Kucing("Milo", "Putih");
+        hewan[2] = new Anjing("Rex", "Besar");
+        hewan[3] = new Burung("Tweety", "Pendek");
+        hewan[4] = new Sapi("Betsy", 500.0);
+
+        System.out.println("Suara Hewan:");
+        System.out.println("------------");
+        for (Hewan h : hewan) {
+            h.buatSuara();
+        }
+    }
+}
