@@ -1,6 +1,6 @@
 package packageX;
 
-public class SuperClassX{
+public class SuperclassX{
 	int superclassVarX;
 
 	protected void superclassMethodX(){

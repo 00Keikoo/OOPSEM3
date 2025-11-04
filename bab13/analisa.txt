@@ -1,0 +1,13 @@
+analisa lat1 = 
+tidak bisa di complie karena SubclassY.java tidak dapat menemukan superclass dari dirinya. Maka dari itu, kompilasi SuperclassX.java dan SubclassY.java harus dijalankan bersamaan
+
+analisa lat2 = 
+ini dikarenakan method dapat di override sedangkan atribut tidak. Maka dari itu, angka yang muncul adalah 99 bukan -1 
+
+analisa lat3 = 
+ketika menjalankan p.method2() akan dijalankan method2 milik parent. Yang di dalamnya akan mengeprint "Parent's method2() dan Parent's method1()"
+
+analisa lat4 = 
+
+
+analisa tugas = 
