@@ -9,9 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PC {
+    // COMPOSITION (wajib, mati bareng)
     private final Motherboard motherboard;
     private final CPU cpu;
     private final RAM ram;
+    // AGGREGATION (opsional, bisa dipindah)
+    
     private final List<Component> storages = new ArrayList<>();
     private final List<Component> peripherals = new ArrayList<>(); 
 
